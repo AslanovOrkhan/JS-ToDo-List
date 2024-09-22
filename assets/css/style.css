@@ -160,3 +160,13 @@ main {
     font-size: 75%;
   }
 }
+@media (max-width: 576px) {
+  .container {
+    max-width: 350px;
+    height: 90vh;
+    border-radius: 10px;
+  }
+  #new-task-input::placeholder {
+    font-size: 12px;
+  }
+}
